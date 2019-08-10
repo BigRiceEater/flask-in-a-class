@@ -10,3 +10,7 @@ Make sure `pyenv` and `pipenv` is installed to re-create `v3.7.1` and to re-inst
 pipenv shell
 python __main__py
 ```
+
+## Flask Blueprints
+
+Flask doesn't call separate routers a middleware, it refers to it as a `blueprint` to logically separate endpoints. 
